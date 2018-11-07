@@ -1,5 +1,7 @@
 package com.example.darius.praxismanager.logic.objects;
 
+import java.util.GregorianCalendar;
+
 public class Patient {
 
     private final int id;
@@ -11,9 +13,10 @@ public class Patient {
     private final String streetNumber;
     private final int zipcode;
     private final String city;
+    private GregorianCalendar dateOfBrith;
 
 
-    public Patient(int id, String name, String surname, char gender, int phone, String streetName, String streetNumber, int zipcode, String city) {
+    public Patient(int id, String name, String surname, char gender, int phone, String streetName, String streetNumber, int zipcode, String city, GregorianCalendar dateOfBrith) {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -23,6 +26,7 @@ public class Patient {
         this.streetNumber = streetNumber;
         this.zipcode = zipcode;
         this.city = city;
+        this.dateOfBrith = dateOfBrith;
     }
 
     public int getId() {
@@ -36,6 +40,7 @@ public class Patient {
     public String getSurname() {
         return surname;
     }
+
     public char getGender() {
         return gender;
     }
@@ -60,4 +65,7 @@ public class Patient {
         return city;
     }
 
+    public GregorianCalendar getDateOfBrith() {
+        return dateOfBrith;
+    }
 }
