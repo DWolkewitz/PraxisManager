@@ -1,6 +1,6 @@
 package com.example.darius.praxismanager.logic.objects;
 
-public class treatment {
+public class Treatment {
 
     private final int id;
     private final String idNumber;
@@ -9,7 +9,7 @@ public class treatment {
     private final double price;
     private final double factor;
 
-    public treatment(int id, String idNumber, String name, String description, double price, double factor) {
+    public Treatment(int id, String idNumber, String name, String description, double price, double factor) {
         this.id = id;
         this.idNumber = idNumber;
         this.name = name;

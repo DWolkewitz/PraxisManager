@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Praxismanager</string>
+    <string name="menu_new_bill">Neue Rechnung</string>
+    <string name="menu_bills">Rechungen</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_patients">Patienten</string>
+    <string name="menu_treatments">Behandlungen</string>
+</resources>
